@@ -43,7 +43,7 @@ void wifiSetup() {
 // -----------------------------------------------------------------------------
 void toggleRelay() {
   digitalWrite(RELAY, HIGH);
-  delay(1*1000);
+  delay(500);
   digitalWrite(RELAY, LOW);
 }
 
